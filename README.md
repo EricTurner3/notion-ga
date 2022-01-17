@@ -35,6 +35,7 @@ Proxy server that allows you to track pageview events via google analytics. It u
 ```bash
 $ npm install now@^15 --global
 ```
+NOTE: This has been deprecated but still seems to work as of 17 Jan 2022
 
 ### 2. Run development server
 
@@ -47,10 +48,8 @@ $ now dev
 ```bash
 $ now
 ```
-
-## Contributions
-
-Issues and PRs are welcome. Do not hesitate to do it. Please do.
+## Notes
+I forked this from the original author and converted to support Google's new Googla Analytics 4 (GA4) tokens instead of their previous Universal Analytics (UA) tokens.
 
 ## LICENSE
 
